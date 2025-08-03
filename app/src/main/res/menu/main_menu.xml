@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_backup"
+        android:icon="@drawable/ic_backup"
+        android:title="Crear copia de seguridad"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_restore"
+        android:icon="@drawable/ic_restore"
+        android:title="Restaurar copia"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_export_vcard"
+        android:title="Exportar a vCard (.vcf)"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_import_device"
+        android:title="Importar desde dispositivo"
+        app:showAsAction="never" />
+</menu>
